@@ -1,0 +1,10 @@
+<%- include('partials/header.ejs'); %>
+
+<ul>
+  <% result.forEach(function(result){ %>
+  <li><%= result.firstName %></li>
+  <li><%= result.lastName %></li>
+  <% }); %>
+</ul>
+
+<%- include('partials/footer.ejs'); %>
